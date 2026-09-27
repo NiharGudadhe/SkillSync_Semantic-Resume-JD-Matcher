@@ -63,3 +63,5 @@ resume-jd-matcher/
 └── tests/
     └── test_skills.py      # Quick tests for the skill extractor
 ```
+## Author
+Nihar Gudadhe
