@@ -1,0 +1,18 @@
+We are hiring a Data Scientist to join our growing analytics team.
+
+Responsibilities:
+- Build and deploy machine learning models (regression and classification)
+  using Python and Scikit-learn.
+- Design and maintain SQL-based data pipelines and warehouses.
+- Deploy models as REST APIs using FastAPI and Docker.
+- Build dashboards in Power BI or Tableau for business stakeholders.
+- Apply NLP techniques such as transformers and named entity recognition
+  for text analytics use cases.
+- Experience with MLflow or similar tools for experiment tracking is a
+  strong plus.
+- Familiarity with LangChain, RAG, or LLM-based applications is a bonus.
+
+Requirements:
+- Strong Python, SQL, and Pandas skills.
+- Experience with cloud platforms (AWS or GCP).
+- Knowledge of Git/GitHub and CI/CD workflows.

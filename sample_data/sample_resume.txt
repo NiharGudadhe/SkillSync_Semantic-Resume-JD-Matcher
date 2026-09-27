@@ -1,0 +1,16 @@
+Nihar Gudadhe
+Data Scientist & Analyst
+
+Experience:
+Built and deployed a Random Forest regression model using Scikit-learn and
+Python, served through a FastAPI endpoint running in Docker. Designed
+Power BI dashboards for sales and operations. Automated an ETL pipeline
+pulling data from CRM systems into a PostgreSQL warehouse using dbt.
+Trained classification models (Random Forest, XGBoost, LightGBM) with
+GridSearchCV and tracked experiments using MLflow. Applied SMOTE to
+handle imbalanced data. Built an NLP sentiment analysis pipeline using
+TF-IDF and scikit-learn, deployed with Streamlit and MySQL logging.
+
+Skills: Python, SQL, Pandas, NumPy, Scikit-learn, FastAPI, Docker, Git,
+GitHub, Power BI, PostgreSQL, MySQL, dbt, MLflow, XGBoost, LightGBM,
+Random Forest, TF-IDF, sentiment analysis.
