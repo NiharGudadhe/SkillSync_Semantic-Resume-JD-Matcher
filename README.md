@@ -2,7 +2,8 @@
 
 ## Live Demo
 - **Frontend**: https://nihargudadhe-skillsync-semantic-resume-jd-matcher-app-0kwffc.streamlit.app/
-A small, fully self-built NLP project: upload a resume, paste a job
+
+- A small, fully self-built NLP project: upload a resume, paste a job
 description, and get a match score based on **meaning** (semantic
 similarity) rather than just matching keywords.
 
