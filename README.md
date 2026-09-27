@@ -1,5 +1,7 @@
 # SkillSync ↔ Semantic Resume-JD Matcher
 
+## Live Demo
+- **Frontend**: https://nihargudadhe-skillsync-semantic-resume-jd-matcher-app-0kwffc.streamlit.app/
 A small, fully self-built NLP project: upload a resume, paste a job
 description, and get a match score based on **meaning** (semantic
 similarity) rather than just matching keywords.
@@ -8,6 +10,23 @@ This project extends the TF-IDF + classifier approach used in an earlier
 sentiment-analysis project by upgrading to **dense embeddings** for
 similarity comparison — a natural, honest next step in an NLP skill
 progression.
+
+
+## Tech Stack
+| Layer | Technology |
+|-------|-----------|
+| Language | Python |
+| Document Parsing | pypdf, python-docx |
+| Embedding Model | Sentence-Transformers (all-MiniLM-L6-v2) |
+| Similarity Scoring | Cosine Similarity (NumPy) |
+| Skill Extraction | Regex-based Keyword Matching |
+| Frontend / UI | Streamlit |
+| Testing | Pytest |
+| CI/CD | GitHub Actions |
+| Version Control | Git, GitHub |
+| Deployment | Streamlit Community Cloud |
+| License | MIT |
+
 
 ---
 
