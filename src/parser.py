@@ -12,7 +12,7 @@ import docx
 
 def extract_text_from_pdf(file_path):
     """Reads every page of a PDF and returns all the text as one string."""
-    reader = PdfReade-r r(file_path)
+    reader = PdfReader(file_path)
     text = ""
     for page in reader.pages:
         text += page.extract_text() or ""
