@@ -1,23 +1,3 @@
-"""
-matcher.py
-----------
-The heart of the project: turn a resume and a job description into a
-single "how well do these match" score, plus a skills breakdown.
-
-Two signals are combined:
-
-1. SEMANTIC SIMILARITY — using sentence embeddings, so a resume saying
-   "led a group of engineers" is recognised as related to a JD asking for
-   "team management experience", even though they share almost no exact
-   words. This is the key upgrade over old-style keyword/TF-IDF matching.
-
-2. SKILL OVERLAP — a simple, explainable check of which known skills
-   appear in both documents (see skills.py).
-
-The final score is a weighted blend of the two, so one weak signal doesn't
-wreck the whole result.
-"""
-
 import numpy as np
 from sentence_transformers import SentenceTransformer
 

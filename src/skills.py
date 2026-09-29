@@ -1,20 +1,3 @@
-"""
-skills.py
----------
-A simple, EXPLAINABLE way to find skills mentioned in text: we keep a list
-of known skill keywords/phrases and check which ones appear in the text.
-
-This is a lookup approach, not a trained NER model. That is a deliberate
-choice, not a shortcut:
-  - It needs no training data or GPU.
-  - It runs instantly.
-  - You can explain EXACTLY how it works in an interview — no black box.
-
-If you want to extend this later, the natural upgrade path is spaCy's NER
-or a fine-tuned transformer — but for a first version, a keyword list gets
-you 80% of the value for 5% of the effort.
-"""
-
 import re
 
 # A starter list — feel free to add more skills relevant to the roles

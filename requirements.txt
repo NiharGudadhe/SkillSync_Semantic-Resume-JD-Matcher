@@ -3,3 +3,5 @@ sentence-transformers
 pypdf
 python-docx
 numpy
+PyMySQL
+cryptography

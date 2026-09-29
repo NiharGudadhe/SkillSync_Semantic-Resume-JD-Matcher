@@ -1,10 +1,3 @@
-"""
-parser.py
----------
-This file has ONE job: take a resume file (PDF, DOCX, or TXT) and pull out
-the plain text so the rest of the program can work with it.
-"""
-
 import os
 from pypdf import PdfReader
 import docx
